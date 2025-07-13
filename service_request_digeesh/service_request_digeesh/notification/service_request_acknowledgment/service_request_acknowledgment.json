@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.docstatus == 1",
+ "creation": "2025-07-12 22:25:30.029275",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Service Request Form",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello {{ doc.contact_person }},\r\n\r\nThank you for your service request ({{ doc.name }}).  \r\nOur team will get back to you shortly.\r\n\r\n**Request Type:** {{ doc.request_type }}  \r\n**Priority:** {{ doc.priority }}  \r\n**Description:** {{ doc.description }}\r\n\r\nRegards,  \r\nETG Service Team\r\n",
+ "message_type": "Markdown",
+ "modified": "2025-07-12 22:25:47.295132",
+ "modified_by": "Administrator",
+ "module": "Service Request Digeesh",
+ "name": "Service Request Acknowledgment",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "assigned_technician,service_form_item",
+   "receiver_by_role": "Service Coordinator"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Digeesh",
+ "sender_email": "digeeshsekara@gmail.com",
+ "subject": "Your Service Request has been received"
+}

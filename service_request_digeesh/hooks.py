@@ -242,3 +242,64 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    
+    {
+        "doctype": "Web Form",
+        "filters": {
+            "module": "Service Request Digeesh"
+        }
+    },
+
+    
+    {
+        "doctype": "Workflow State",
+        "filters": {
+            "name": ["in", [
+                "Draft",
+                "Submitted",
+                "Under Review",
+                "Approved",
+                "Rejected",
+                "Reopened",
+                "Pending"
+            ]]
+        }
+    },
+
+
+    {
+        "doctype": "Workflow Action Master",
+        "filters": {
+            "name": ["in", [
+                "Submit",
+                "Review",
+                "Approve",
+                "Reject",
+                "Reopen",
+                "Resend for Review",
+                "Draft"
+            ]]
+        }
+    },
+
+    {
+        "doctype": "Role",
+        "filters": {
+            "name": ["in", [
+                "Assigned Technician",
+                "Service Manager",
+                "Service Coordinator"
+            ]]
+        }
+    },
+    {
+        "doctype": "Report",
+        "filters": {
+            "ref_doctype": "Service Request Form",
+            "report_type": ["in", ["Script Report"]]
+        }
+    }
+
+
+]

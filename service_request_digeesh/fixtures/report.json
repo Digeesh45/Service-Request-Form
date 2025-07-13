@@ -1,0 +1,52 @@
+[
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2025-07-13 00:11:23.132940",
+  "module": "Service Request Digeesh",
+  "name": "Pending Service Requests",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Service Request Form",
+  "reference_report": "",
+  "report_name": "Pending Service Requests",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Pending Service Requests",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "System Manager"
+   },
+   {
+    "parent": "Pending Service Requests",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Service Manager"
+   },
+   {
+    "parent": "Pending Service Requests",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Service Coordinator"
+   },
+   {
+    "parent": "Pending Service Requests",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Assigned Technician"
+   }
+  ],
+  "timeout": 0
+ }
+]
