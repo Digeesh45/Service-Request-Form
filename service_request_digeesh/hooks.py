@@ -250,6 +250,10 @@ fixtures = [
             "module": "Service Request Digeesh"
         }
     },
+    {
+        "dt": "Workflow",
+        "filters": [["document_type", "=", "Service Request Form"]]
+    },
 
     
     {
