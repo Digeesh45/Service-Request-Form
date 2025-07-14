@@ -128,7 +128,7 @@ function show_confirmation_dialog(frm) {
                 fieldname: 'total_cost',
                 fieldtype: 'Currency',
                 default: frm.doc.total_estimated_cost,
-                read_only: 1
+                
             }
         ],
         primary_action_label: 'Confirm',

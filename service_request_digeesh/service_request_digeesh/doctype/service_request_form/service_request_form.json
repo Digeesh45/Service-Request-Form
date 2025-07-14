@@ -139,8 +139,7 @@
   {
    "fieldname": "total_estimated_cost",
    "fieldtype": "Currency",
-   "label": "Total Estimated Cost",
-   "read_only": 1
+   "label": "Total Estimated Cost"
   },
   {
    "fieldname": "column_break_equz",
@@ -156,7 +155,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-12 23:01:07.496414",
+ "modified": "2025-07-14 10:43:51.978289",
  "modified_by": "Administrator",
  "module": "Service Request Digeesh",
  "name": "Service Request Form",
